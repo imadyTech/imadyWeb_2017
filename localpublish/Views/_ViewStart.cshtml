@@ -1,0 +1,17 @@
+﻿@{
+    var controller = HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+    var action = HttpContext.Current.Request.RequestContext.RouteData.Values["action"].ToString();
+    Console.WriteLine(controller+" - " + action);
+
+    string layout = "";
+    if (controller == "Home" && action=="Index2")
+    {
+        layout = "~/Views/Shared/_ComingLayout.cshtml";
+    }
+    else
+    {
+        layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    Layout = layout;
+}

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value>学习与探索</value>
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>穿过幽暗的岁月，回首是一串足迹</value>
+  </data>
+  <data name="Sec_Project_01_Content" xml:space="preserve">
+    <value>苏州美娱为天睿企业开发的一套整合营销管理工具系统，并与微信公众号运营相衔接，支持全民经纪人业务系统在微信端的运营。项目采用多层架构、分布式部署，后端能够支持桌面软件和微信web页面的多端架构。整体软件基本为自有开发代码，具有一定的伸缩弹性，模块结构清晰，易于扩容和维护。上线以来已经实现在线业务撮合超过7亿元。</value>
+  </data>
+  <data name="Sec_Project_01_Date" xml:space="preserve">
+    <value>Aug 1, 2015</value>
+  </data>
+  <data name="Sec_Project_01_Name" xml:space="preserve">
+    <value>天睿房产</value>
+  </data>
+  <data name="Sec_Project_02_Content" xml:space="preserve">
+    <value>苏州美娱为震泽古镇开发的三维虚拟游，结合了三维实景建模和720体感全景技术, 将世界各地的旅游者带入这座具有1200年历史的江南古镇。作为震泽古镇申报国家4A景区项目的一部分，实现古镇主要景点的三维仿真呈现和实景全景照片的三维浏览，使得用户可以远程体验古镇的实景和仿真风景。</value>
+  </data>
+  <data name="Sec_Project_02_Content1" xml:space="preserve">
+    <value>特别是在手机App上创新地实现了体感全景这一有趣的体验模式（仿VR眼镜方式）。项目为跨平台开发，实现PC端、Web端和Android/iPhone手机端的兼容性。</value>
+  </data>
+  <data name="Sec_Project_02_Date" xml:space="preserve">
+    <value>Feb 10, 2014</value>
+  </data>
+  <data name="Sec_Project_02_Name" xml:space="preserve">
+    <value>虚拟震泽古镇</value>
+  </data>
+  <data name="Sec_Project_03_Content" xml:space="preserve">
+    <value>新上岗的电站操作人员面临极大的危险，对于从未实际操作过的高压设备，仅靠传统的文字和图片无法获得直观的认知，因而极易发生事故，造成人员伤亡或者设备损伤。苏州美娱采用三维VR虚拟现实技术，协助南方电网电科院完成了《高压电力设备仿真培训系统》，在一个逼真的220kV变电站三维仿真环境中模拟了高压设备老化预防性试验的全过程，有效提升了电力操作人员学习效率，降低了真实环境中事故的概率。</value>
+  </data>
+  <data name="Sec_Project_03_Date" xml:space="preserve">
+    <value>Feb 20, 2014</value>
+  </data>
+  <data name="Sec_Project_03_Name" xml:space="preserve">
+    <value>电科院虚拟高压变电站仿真培训系统</value>
+  </data>
+  <data name="Sec_Project_04_Content" xml:space="preserve">
+    <value>大胃街区是苏州美娱完全自有知识产权和自主开发的一款轻度社交游戏，融合了社交建设和塔防等两种截然不同的游戏类型。</value>
+  </data>
+  <data name="Sec_Project_04_Date" xml:space="preserve">
+    <value>July 1, 2012</value>
+  </data>
+  <data name="Sec_Project_04_Name" xml:space="preserve">
+    <value>大胃街区</value>
+  </data>
+  <data name="Sec_Project_05_Content" xml:space="preserve">
+    <value>区区通是一个以邻里社交、智慧社区为方向的互联网产品，技术上采用高并发、高弹性的云技术架构，致力于为中国数十万小区提供智能的生活和社交服务。由苏州美娱提供前期技术服务。</value>
+  </data>
+  <data name="Sec_Project_05_Date" xml:space="preserve">
+    <value>Oct 31, 2016</value>
+  </data>
+  <data name="Sec_Project_05_Name" xml:space="preserve">
+    <value>邻里社交</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>imady-项目案例</value>
+  </data>
+</root>

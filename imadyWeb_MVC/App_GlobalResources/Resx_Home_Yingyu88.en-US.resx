@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Coming_ButtonNotify" xml:space="preserve">
+    <value>Please Notify me</value>
+  </data>
+  <data name="Sec_Coming_Title" xml:space="preserve">
+    <value>Coming soon!</value>
+  </data>
+  <data name="Sec_Evolution_ButtonMore" xml:space="preserve">
+    <value>Learn More</value>
+  </data>
+  <data name="Sec_Evolution_Intro" xml:space="preserve">
+    <value>Imady was inspired by the product concept of "Interactive Performing Platform" and the enthusiasm to the forefront technologies including VR, Motion Recognition, AI Motion Control. This venturing project experienced up and down during 7 years and the result can't be simply concluded as "success" or "failure". Researches and experiments were taken along the journey of developing better products and seeking the right commercialization model. The product design was kept evolving from "interactive performance" to "Interactive cartoon", and now "Yingyu88" (English Papa), with synthetic consideration of our technical strength, upstream and downstream technology maturity, devices penetration, market hot topic migration, and so on.</value>
+  </data>
+  <data name="Sec_Evolution_LinkDetail" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Sec_Evolution_Title" xml:space="preserve">
+    <value>Evolution of "Yingyu88" Project</value>
+  </data>
+  <data name="Sec_Features_01_Content" xml:space="preserve">
+    <value>The pioneered "VR Education Tour" enhances the effect of on-site language tour, by adopting VR/AR technologies and integrating with gamification design.</value>
+  </data>
+  <data name="Sec_Features_01_Name" xml:space="preserve">
+    <value>First “VR Education Tour”</value>
+  </data>
+  <data name="Sec_Features_02_Content" xml:space="preserve">
+    <value>Help children mastering the official syllabus, while providing extensive contents in a fun and attractive manner.</value>
+  </data>
+  <data name="Sec_Features_02_Name" xml:space="preserve">
+    <value>Tutoring Contents</value>
+  </data>
+  <data name="Sec_Features_03_Content" xml:space="preserve">
+    <value>Cultivating children's integrated personality and male side thinking pattern by carefully selecting the qualified and experienced "Papa Teachers" who love kids.</value>
+  </data>
+  <data name="Sec_Features_03_Name" xml:space="preserve">
+    <value>Papa tutors</value>
+  </data>
+  <data name="Sec_Features_04_Content" xml:space="preserve">
+    <value>Button and menu are the compromised design of the limited interactive form in the early stage of software technology. Along with the maturing process of technologies, the interactive form will eventually return to focus on human activities. Therefore, our app embraces a design target of "Zero-Button", maximizes usage of linguistic and body language, and directs the attention of audiences onto the core contents.</value>
+  </data>
+  <data name="Sec_Features_04_Name" xml:space="preserve">
+    <value>"Button Free" UI design</value>
+  </data>
+  <data name="Sec_Features_05_Content" xml:space="preserve">
+    <value>New Zealand, with its beautiful geographical environment and typical Western humanistic surroundings, was selected as the first choice of our Ed-Tour, to establish a first impression for the children to the English world in the beautiful and pure scenery.</value>
+  </data>
+  <data name="Sec_Features_05_Name" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Sec_Features_Intro" xml:space="preserve">
+    <value>"Yingyu88" originates from a technology-oriented project, but gradually discovered the connotation and importance of human nature. Combined with the project founder's personal experience, we strive to integrate parental especially father's care into the project in order to improve the situation of parenting education in China.</value>
+  </data>
+  <data name="Sec_Features_Title" xml:space="preserve">
+    <value>Features of Yingyu88</value>
+  </data>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value>Father in the journey of growing is</value>
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>a companion and guardian </value>
+  </data>
+  <data name="Sec_Issues_01_Content" xml:space="preserve">
+    <value>China's rapid economic growth led to fast-paced society and high pressure, determined the insufficient parental care on the children's education in this generation. Even if some parents are willing to relinquish career for full-time care, they usually choose to buy supplementary tutoring services for children due to the constraints of their own foreign language ability.</value>
+  </data>
+  <data name="Sec_Issues_01_Name" xml:space="preserve">
+    <value>Absence of care</value>
+  </data>
+  <data name="Sec_Issues_02_Content" xml:space="preserve">
+    <value>Native speakers were grown up in a mother tongue dominant environment and the language skill was built in a natural manner; however, in China, kids have very limited practice either through the school course or family education. Therefore, Chinese students are more mechanical learning, which is difficult to cultivate a good sense of foreign language.</value>
+  </data>
+  <data name="Sec_Issues_02_Name" xml:space="preserve">
+    <value>Absence of context</value>
+  </data>
+  <data name="Sec_Issues_03_Content" xml:space="preserve">
+    <value>The classes in Chinese schools generally having large size, and teachers are only able to maintain one single teaching schedule which can hardly deal with the situation of all. In such a context, it has resulted to significant dispersion on students' proficiency to a same teaching task, for example, some students lose their desire of learning, while the other part of the students loss their confidence.</value>
+  </data>
+  <data name="Sec_Issues_03_Name" xml:space="preserve">
+    <value>Absence of personality</value>
+  </data>
+  <data name="Sec_Issues_04_Content" xml:space="preserve">
+    <value>Strengthening memory leads to a strong sense of presentational thought but lack of cognition. At present, English teaching is Chinese thinking orientated, which is characterized with an interpretational method that strengthen the study of words, sentences and grammar, but neglects the ability of practical application. As a consequence, our children's practical ability especially speaking and writing, is extremely limited, after 12 years of school learning, let alone thinking and communicating at logical or cultural level.</value>
+  </data>
+  <data name="Sec_Issues_04_Name" xml:space="preserve">
+    <value>Absence of cognition</value>
+  </data>
+  <data name="Sec_Issues_05_Content" xml:space="preserve">
+    <value>There are thousands of English learning apps, yet the interactive form is still limited within judgment, selection, filling, or at most adds up with electronic textbook, or automatic pronunciation scoring. Can we have some innovation and imagination?</value>
+  </data>
+  <data name="Sec_Issues_05_Name" xml:space="preserve">
+    <value>Limitation on technology</value>
+  </data>
+  <data name="Sec_Issues_06_Content" xml:space="preserve">
+    <value>Spare the discussion on the irrationality if someone has not been abroad, never met a foreigner, or has no foreign kid friend after 12 years of English studying.</value>
+  </data>
+  <data name="Sec_Issues_06_Name" xml:space="preserve">
+    <value>Lack of practice</value>
+  </data>
+  <data name="Sec_Issues_Intro" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Issues_Slogan" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Issues_Title" xml:space="preserve">
+    <value>Issues we are facing</value>
+  </data>
+  <data name="Sec_Phylosophy_01_Content" xml:space="preserve">
+    <value>Parents, especially fathers, should participate in children's study, providing accompany more than supervision, to eliminate children's fear of foreign language learning in a harmonious atmosphere.</value>
+  </data>
+  <data name="Sec_Phylosophy_01_Name" xml:space="preserve">
+    <value>Father's companion</value>
+  </data>
+  <data name="Sec_Phylosophy_02_Content" xml:space="preserve">
+    <value>We face up to the world flooded with animations and games. If English learning cannot be happier, how can we capture children's attention?</value>
+  </data>
+  <data name="Sec_Phylosophy_02_Name" xml:space="preserve">
+    <value>Fun</value>
+  </data>
+  <data name="Sec_Phylosophy_03_Content" xml:space="preserve">
+    <value>We embrace the concept of "Button free" design and advocate a retrieve to the natural approach for human interacts, and yield the technological intelligence to assistant position.</value>
+  </data>
+  <data name="Sec_Phylosophy_03_Name" xml:space="preserve">
+    <value>Assitance of technologies</value>
+  </data>
+  <data name="Sec_Phylosophy_04_Content" xml:space="preserve">
+    <value>Our tutoring and touring services have mutual synergy to strengthen the effect of language study by combining the repeated practice in virtual context with the experience of field tour.</value>
+  </data>
+  <data name="Sec_Phylosophy_04_Name" xml:space="preserve">
+    <value>VR + on-site Ed-Tour</value>
+  </data>
+  <data name="Sec_Phylosophy_05_Content" xml:space="preserve">
+    <value>Children are nurtured by affable teachers with fixed arrangement. Every child is treated with personal care regardless to his or her current ability grade.</value>
+  </data>
+  <data name="Sec_Phylosophy_05_Name" xml:space="preserve">
+    <value>Humanity in teaching</value>
+  </data>
+  <data name="Sec_Phylosophy_06_Content" xml:space="preserve">
+    <value>Our mission is to cultivate thoughtful people with excellent linguistic and communicative skills, rather than training parrots.</value>
+  </data>
+  <data name="Sec_Phylosophy_06_Name" xml:space="preserve">
+    <value>Beyond language tutoring</value>
+  </data>
+  <data name="Sec_Phylosophy_Intro" xml:space="preserve">
+    <value>"Yingyu88" is an exploration for the best practice of early age English Learning. Care of family, pleasure of learning, and joy of achievements will be unified through our products and services, and eventually change the impression of boring and insipid on English learning.</value>
+  </data>
+  <data name="Sec_Phylosophy_PreTitle" xml:space="preserve">
+    <value>Love and accompany, everyone is Yingyu88!</value>
+  </data>
+  <data name="Sec_Phylosophy_Title" xml:space="preserve">
+    <value>Philosophy of Yingyu88</value>
+  </data>
+  <data name="Sec_Product_Component01_Content" xml:space="preserve">
+    <value>A specially designed and developed platform that is foreign language tutoring orientated, embedded with frontier technologies such as Virtual Reality, gamification design, Artificial Intelligence.</value>
+  </data>
+  <data name="Sec_Product_Component01_Name" xml:space="preserve">
+    <value>Intelligent App</value>
+  </data>
+  <data name="Sec_Product_Component02_Content" xml:space="preserve">
+    <value>Tutoring is delivered by fixed teachers who were carefully selected with qualification and teaching experience from native English speaking country, while the syllabus synchronize with Chinese official outline.</value>
+  </data>
+  <data name="Sec_Product_Component02_Name" xml:space="preserve">
+    <value>Online Tutoring</value>
+  </data>
+  <data name="Sec_Product_Component03_Content" xml:space="preserve">
+    <value>We aim to build a community to share experience and guidance in helping children's English learning, for parents especially fathers who concern about children's learning and growing.</value>
+  </data>
+  <data name="Sec_Product_Component03_Name" xml:space="preserve">
+    <value>Papa's Diary</value>
+  </data>
+  <data name="Sec_Product_Component04_Content" xml:space="preserve">
+    <value>An innovative online community pioneered sino-overseas kids pairing and communicating to promote cultural exchanges, inspired by Jack Yun Ma's experience of accepting help on English learning from his Australian friend.</value>
+  </data>
+  <data name="Sec_Product_Component04_Name" xml:space="preserve">
+    <value>Interactive Community</value>
+  </data>
+  <data name="Sec_Product_Component_Intro" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Product_Component_Slogan" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Product_Component_Title" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Sec_Product_Intro" xml:space="preserve">
+    <value>"Yingyu88" is a vertical integrated service focused on K12 English learning. We are committed to bring the family care and learning pleasure back to the English learning, seeking best practice of solving the conflict between pleasant learning and school scoring, and leaving children a beautiful memory on the learning age while acquiring solid linguistic ability.</value>
+  </data>
+  <data name="Sec_Product_Name" xml:space="preserve">
+    <value>What is Yingyu88?</value>
+  </data>
+  <data name="Sec_Product_Service01_Content" xml:space="preserve">
+    <value>Help kids (especially Grade 1 &amp; 2) to raise the school English achievement and build the self-confidence, through our services, including syllabus synchronization, virtual context simulation, weakness reinforcement.</value>
+  </data>
+  <data name="Sec_Product_Service01_Name" xml:space="preserve">
+    <value>Curriculum Sync</value>
+  </data>
+  <data name="Sec_Product_Service02_Content" xml:space="preserve">
+    <value>Under the premise of following the school syllabus and teaching agenda, extending knowledge by recommended supplementary listening, reading, dialogue games. Frontier technologies will be gradually introduced to assist this goal.</value>
+  </data>
+  <data name="Sec_Product_Service02_Name" xml:space="preserve">
+    <value>Extended Courses</value>
+  </data>
+  <data name="Sec_Product_Service03_Content" xml:space="preserve">
+    <value>A simulative training serves as the preparation to our field tour. It will contains several virtual scenes corresponding to real scenes in the destination country, and will be helpful to build prerequisite skills for the incoming tour and eliminate anxiety to the new land.</value>
+  </data>
+  <data name="Sec_Product_Service03_Name" xml:space="preserve">
+    <value>VR Ed-Tour</value>
+  </data>
+  <data name="Sec_Product_Service04_Content" xml:space="preserve">
+    <value>Field Ed-Tour opens the last gate to English world with the form of parent-kids tour group to the destination country, by attending excited programs including local school short-term courses, local customs and community life experiencing, and eventually fledging his/her bilingual skills.</value>
+  </data>
+  <data name="Sec_Product_Service04_Name" xml:space="preserve">
+    <value>Field Ed-Tour</value>
+  </data>
+  <data name="Sec_Product_Slogan" xml:space="preserve">
+    <value>Integrated English tutoring services</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>imady-Yingyu88</value>
+  </data>
+</root>

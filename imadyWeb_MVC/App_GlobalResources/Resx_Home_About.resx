@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Brand_AboutBrand_Content" xml:space="preserve">
+    <value>“imady”是家喻户晓、朗朗上口的英文"I Made It！"的谐音缩写，代表了在互联网和科技飞速发展、个性文化在世界范围内得到宣扬的时代中，一种敢于创造、敢于冒险的精神理念和自我价值的肯定。“imady”文字及图形已经由苏州美娱网络科技有限公司注册了中国商标并获批准。</value>
+  </data>
+  <data name="Sec_Brand_AboutBrand_Name" xml:space="preserve">
+    <value>关于imady品牌</value>
+  </data>
+  <data name="Sec_Brand_Connotation_Content" xml:space="preserve">
+    <value>"imady"来自于英文口语"I made it !"的谐音，表达了追求、抱负和创新的精神。imady的logo包含了一个英文字母“i”和一个感叹号“！”，两个符号紧密结合，绿色代表了一种自我价值的生命力，红色则是“成功的喜悦”，整体含义更加面向新一代互联网用户开放的性格和渴望分享和认同的价值观，是对于虚拟网络世界“自由无边界”精神的一种拥抱。</value>
+  </data>
+  <data name="Sec_Brand_Connotation_Name" xml:space="preserve">
+    <value>"imady"的含义</value>
+  </data>
+  <data name="Sec_Brand_Mission_Content" xml:space="preserve">
+    <value>美娱致力于将最前沿的互动科技应用于各种线上教育、培训、娱乐等类型的应用，并力争形成新的商业模式。基于下一代高速网络、高速移动互联网的基础架构，我们看到未来10年的时间内，人工智能、机器智能、人体感知、空间感知、虚拟人机互动等全新的技术将逐渐渗透到我们的生活，将这些科技创造性地融入当前线上娱乐和互动，成为我们对神秘未来的独特认识。美娱期望，通过我们的努力，将今日看来电影虚构的故事变为可控的现实。</value>
+  </data>
+  <data name="Sec_Brand_Mission_Name" xml:space="preserve">
+    <value>使命和愿景</value>
+  </data>
+  <data name="Sec_Coffee_01" xml:space="preserve">
+    <value>杯咖啡</value>
+  </data>
+  <data name="Sec_Coffee_02" xml:space="preserve">
+    <value>个创意</value>
+  </data>
+  <data name="Sec_Coffee_03" xml:space="preserve">
+    <value>年学习和研究</value>
+  </data>
+  <data name="Sec_Coffee_04" xml:space="preserve">
+    <value>行代码</value>
+  </data>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value>若不是情怀，还有什么是指向远方的星辰</value>
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>关于情怀的那点事</value>
+  </data>
+  <data name="Sec_Team_Intro" xml:space="preserve">
+    <value>我们只是有点不安分，想做点事情的人。</value>
+  </data>
+  <data name="Sec_Team_Member01_Intro" xml:space="preserve">
+    <value>热爱编程技术，直接参与软件项目架构搭建和编程开发，.Net、Unity3D、HTML5、微信和APP开发程序猿；致力于VR Object Stream下一代互动超视频技术概念。</value>
+  </data>
+  <data name="Sec_Team_Member01_LinkedIn" xml:space="preserve">
+    <value>https://www.linkedin.com/in/frank-shen-a527445/</value>
+  </data>
+  <data name="Sec_Team_Member01_Name" xml:space="preserve">
+    <value>沈震群</value>
+  </data>
+  <data name="Sec_Team_Member01_Title" xml:space="preserve">
+    <value>创始人</value>
+  </data>
+  <data name="Sec_Team_Member02_Intro" xml:space="preserve">
+    <value>海龟二孩妈，喜欢孩子，为小朋友学习伤透脑筋；自己爱好的是穷游，所有时间都在琢磨旅游经，圈子里的旅游达人。</value>
+  </data>
+  <data name="Sec_Team_Member02_LinkedIn" xml:space="preserve">
+    <value>https://www.linkedin.com/in/%E8%89%B3-%E6%B2%88-45559bb5/</value>
+  </data>
+  <data name="Sec_Team_Member02_Name" xml:space="preserve">
+    <value>沈艳</value>
+  </data>
+  <data name="Sec_Team_Member02_Title" xml:space="preserve">
+    <value>联合创始人</value>
+  </data>
+  <data name="Sec_Team_Title" xml:space="preserve">
+    <value>团队成员</value>
+  </data>
+  <data name="Sec_Timeline_2010A_Date" xml:space="preserve">
+    <value>Dec, 2010</value>
+  </data>
+  <data name="Sec_Timeline_2010A_Title" xml:space="preserve">
+    <value>建立吴江市第一个动作捕捉研究实验室。</value>
+  </data>
+  <data name="Sec_Timeline_2010B_Date" xml:space="preserve">
+    <value>May, 2010</value>
+  </data>
+  <data name="Sec_Timeline_2010B_Title" xml:space="preserve">
+    <value>苏州美娱网络科技有限公司注册成立。</value>
+  </data>
+  <data name="Sec_Timeline_2010C_Date" xml:space="preserve">
+    <value>Oct, 2010</value>
+  </data>
+  <data name="Sec_Timeline_2010C_Title" xml:space="preserve">
+    <value>沈震群获得“吴江科技创新创业领军人才”称号和相应支持。</value>
+  </data>
+  <data name="Sec_Timeline_2011A_Date" xml:space="preserve">
+    <value>Dec, 2011</value>
+  </data>
+  <data name="Sec_Timeline_2011A_Title" xml:space="preserve">
+    <value>“互动演艺”测试原型在实验室通过200人同屏模拟。</value>
+  </data>
+  <data name="Sec_Timeline_2011B_Date" xml:space="preserve">
+    <value>Oct, 2011</value>
+  </data>
+  <data name="Sec_Timeline_2011B_Title" xml:space="preserve">
+    <value>沈震群获得“吴江文化重点人才”称号。</value>
+  </data>
+  <data name="Sec_Timeline_2011C_Date" xml:space="preserve">
+    <value>Nov, 2011</value>
+  </data>
+  <data name="Sec_Timeline_2011C_Title" xml:space="preserve">
+    <value>丁振加入美娱，担任CTO。</value>
+  </data>
+  <data name="Sec_Timeline_2012A_Date" xml:space="preserve">
+    <value>Jun, 2012</value>
+  </data>
+  <data name="Sec_Timeline_2012A_Title" xml:space="preserve">
+    <value>“互动卡通”之“呜咪讲故事”初步完成Android版开发。</value>
+  </data>
+  <data name="Sec_Timeline_2012B_Date" xml:space="preserve">
+    <value>Jun, 2012</value>
+  </data>
+  <data name="Sec_Timeline_2012B_Title" xml:space="preserve">
+    <value>“大胃街区”iOS版本在苹果在线商店上线。</value>
+  </data>
+  <data name="Sec_Timeline_2013A_Date" xml:space="preserve">
+    <value>Sept, 2013</value>
+  </data>
+  <data name="Sec_Timeline_2013A_Title" xml:space="preserve">
+    <value>“VR高压变电站仿真培训系统”交付给南网电科院并获得好评。</value>
+  </data>
+  <data name="Sec_Timeline_2014A_Date" xml:space="preserve">
+    <value>Jan, 2014</value>
+  </data>
+  <data name="Sec_Timeline_2014A_Title" xml:space="preserve">
+    <value>“震泽古镇”虚拟旅游交付，支持web嵌入和Android/iOS系统。</value>
+  </data>
+  <data name="Sec_Timeline_2014B_Date" xml:space="preserve">
+    <value>Oct, 2014</value>
+  </data>
+  <data name="Sec_Timeline_2014B_Title" xml:space="preserve">
+    <value>参加Intel Realsense应用技术开发合作。</value>
+  </data>
+  <data name="Sec_Timeline_2015A_Date" xml:space="preserve">
+    <value>Aug, 2015</value>
+  </data>
+  <data name="Sec_Timeline_2015A_Title" xml:space="preserve">
+    <value>“天睿房产”在线撮合成交额超过6亿元人民币。</value>
+  </data>
+  <data name="Sec_Timeline_2015B_Date" xml:space="preserve">
+    <value>Oct, 2015</value>
+  </data>
+  <data name="Sec_Timeline_2015B_Title" xml:space="preserve">
+    <value>“互动卡通”项目获得微软Microsoft BizSpark项目支持。</value>
+  </data>
+  <data name="Sec_Timeline_2017A_Date" xml:space="preserve">
+    <value>Jun, 2017</value>
+  </data>
+  <data name="Sec_Timeline_2017A_Title" xml:space="preserve">
+    <value>项目变更为“英语爸爸” - 整合式英语启蒙和学习服务</value>
+  </data>
+  <data name="Sec_Timeline_Hide" xml:space="preserve">
+    <value>折叠</value>
+  </data>
+  <data name="Sec_Timeline_Intro" xml:space="preserve">
+    <value>创新从不止步，昨日的曲折只是明天更坚实的基础。</value>
+  </data>
+  <data name="Sec_Timeline_LoadMore" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="Sec_Timeline_Title" xml:space="preserve">
+    <value>发展历程</value>
+  </data>
+  <data name="Sec_Todo_01_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Todo_01_Name" xml:space="preserve">
+    <value>做有意义的事</value>
+  </data>
+  <data name="Sec_Todo_02_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Todo_02_Name" xml:space="preserve">
+    <value>不甘平凡，勇于探索</value>
+  </data>
+  <data name="Sec_Todo_03_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Todo_03_Name" xml:space="preserve">
+    <value>人性导向</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>imady-关于苏州美娱</value>
+  </data>
+</root>

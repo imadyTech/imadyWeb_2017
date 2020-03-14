@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Business_01_Content" xml:space="preserve">
+    <value>炫酷样式，以HTML5响应式设计，满足多个终端显示，超级兼容，使用户体验达到极致。</value>
+  </data>
+  <data name="Sec_Business_01_Name" xml:space="preserve">
+    <value>网站设计</value>
+  </data>
+  <data name="Sec_Business_02_Content" xml:space="preserve">
+    <value>专业手机应用开发,提供基于Android,Windows Phone,iOS等平台的手机应用开发。</value>
+  </data>
+  <data name="Sec_Business_02_Name" xml:space="preserve">
+    <value>手机应用</value>
+  </data>
+  <data name="Sec_Business_03_Content" xml:space="preserve">
+    <value>根据用户需求特征，个性化设计营销方案。</value>
+  </data>
+  <data name="Sec_Business_03_Name" xml:space="preserve">
+    <value>在线营销</value>
+  </data>
+  <data name="Sec_Business_04_Content" xml:space="preserve">
+    <value>针对企业业务流程提高个性化软件开发，涵盖ERP、CRM、业务管理、数据分析、营销发布。</value>
+  </data>
+  <data name="Sec_Business_04_Name" xml:space="preserve">
+    <value>软件开发</value>
+  </data>
+  <data name="Sec_Business_05_Content" xml:space="preserve">
+    <value>提供各种与网站优化相关的SEO建议、实施、监测的服务。</value>
+  </data>
+  <data name="Sec_Business_05_Name" xml:space="preserve">
+    <value>搜索优化</value>
+  </data>
+  <data name="Sec_Business_06_Content" xml:space="preserve">
+    <value>将企业信息、服务、活动等内容通过微信网页的方式发布，面向人脉关系进行社会化推广。可与企业核心系统对接。</value>
+  </data>
+  <data name="Sec_Business_06_Name" xml:space="preserve">
+    <value>微信开发</value>
+  </data>
+  <data name="Sec_Business_Title" xml:space="preserve">
+    <value>业务范围</value>
+  </data>
+  <data name="Sec_Contents_01_Content" xml:space="preserve">
+    <value>有时候，伟大的项目可能源自于不起眼的创意，而看来很伟大的创意也可能是不具备可行性的。我们可以从项目创意阶段起即以专家的身份参与到项目的规划中，从技术和项目执行的角度与客户讨论整体软件项目的需求、架构、周期和性能指标，为软件项目的成功奠定坚实的基础。</value>
+  </data>
+  <data name="Sec_Contents_01_Name" xml:space="preserve">
+    <value>1. 项目创意、咨询服务</value>
+  </data>
+  <data name="Sec_Contents_02_Content" xml:space="preserve">
+    <value>许多客户并不精通将自己的需求描述为可见的文字和图表。但是，这对于软件项目来说，常常是必不可少的。文档不仅仅用于我们与客户之间商定项目的需求和目标，也是我们在后续执行过程中日常控制的依据。对于擅长项目文档的客户，这很好，我们能够精确地知道我们该做什么，该怎么做；对于没有项目文档的客户，没关系，我们可以和您一起，把项目的方方面面描述为软件项目的语言。</value>
+  </data>
+  <data name="Sec_Contents_02_Name" xml:space="preserve">
+    <value>2. 项目控制和管理</value>
+  </data>
+  <data name="Sec_Contents_03_Content" xml:space="preserve">
+    <value>我们欢迎客户提供完整的美术资源，但是对于需要我们来完成这个环节的客户，我们可以提供从创意、设定到最终图片或三维模型制作的全过程。也可以与您一起寻找和评估合适的专业美术外包团队。我们也能够采用客户提供的模型，配合我们的动作捕捉设备，来生成栩栩如生的动画资源。</value>
+  </data>
+  <data name="Sec_Contents_03_Name" xml:space="preserve">
+    <value>3. 开发和设计</value>
+  </data>
+  <data name="Sec_Contents_Introduction" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Contents_Slogan" xml:space="preserve">
+    <value>站在客户角度思考项目，我们不是简单的代码加工者。</value>
+  </data>
+  <data name="Sec_Contents_Title" xml:space="preserve">
+    <value>我们努力让您的工作变得简单</value>
+  </data>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value>若不是情怀，还有什么是指向远方的星辰</value>
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value>专注于一种技术</value>
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>纷繁复杂，仅取其一</value>
+  </data>
+  <data name="Sec_Technologies_Introduction" xml:space="preserve">
+    <value>多年来围绕微软.Net编程技术体系所积累的知识、经验、合作伙伴关系，都将助力于您的需求实现。</value>
+  </data>
+  <data name="Sec_Technologies_Slogan" xml:space="preserve">
+    <value>编程世界很大</value>
+  </data>
+  <data name="Sec_Technologies_Title" xml:space="preserve">
+    <value>因此，我们只专注于一类开发技术</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>imady-产品与服务</value>
+  </data>
+</root>

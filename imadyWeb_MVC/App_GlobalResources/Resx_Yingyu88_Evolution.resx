@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value>美娱最初由“互动演艺平台”的产品构想和对于虚拟现实、体感控制、人机智能等前沿技术的热情，开始了技术探索、试验和产品开发。但是由于产品设计合理性、自身技术实力、产业上下游技术成熟度、硬件普及程度、市场热点变迁等因素影响，项目变更为“互动卡通”，再调整为“英语爸爸”项目。</value>
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>“英语爸爸”项目变迁历程</value>
+  </data>
+  <data name="Sec_imadyCartoon_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_imadyCartoon_Date" xml:space="preserve">
+    <value>(2012)</value>
+  </data>
+  <data name="Sec_imadyCartoon_Name" xml:space="preserve">
+    <value>第二阶段 - “imady互动卡通”</value>
+  </data>
+  <data name="Sec_imadyCartoon_Para1" xml:space="preserve">
+    <value>“imady互动卡通”是基于“imady互动演艺平台”技术基础之上面向幼早教市场开发的创新应用服务。早教教师通过动作捕捉技术，远程扮演卡通形象，并以这种小朋友最喜爱的形式，在客厅大屏幕上传递早教信息，做到真正的“寓教于乐”！</value>
+  </data>
+  <data name="Sec_imadyCartoon_Para2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_imadyPlatform_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_imadyPlatform_Date" xml:space="preserve">
+    <value>(2011)</value>
+  </data>
+  <data name="Sec_imadyPlatform_Name" xml:space="preserve">
+    <value>第一阶段 - “imady互动演艺”</value>
+  </data>
+  <data name="Sec_imadyPlatform_Para1" xml:space="preserve">
+    <value>“imady互动演唱会”是基于imady互动演艺平台开发、面向互联网实时虚拟互动娱乐应用的大型网络系统。在技术层面，涉及到实时动捕、全身体感、动作识别、三维图形实时渲染、大并发高流量数据传输和交换、实时虚拟音效合成、多平台客户端协同等先进而复杂的技术。</value>
+  </data>
+  <data name="Sec_imadyPlatform_Para2" xml:space="preserve">
+    <value>未来，通过智能机顶盒（如Android系统）或者智能电视(如GoogleTV）等设备，并配以Kinect类型的体感操控设备，每个观众都可以经高速互联网接入到我们的虚拟演艺服务器，实时参加线上演出，这就是我们所倡导的未来互动电视理念：每个观众都是节目的一部分。</value>
+  </data>
+  <data name="Sec_Wumi_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Wumi_Date" xml:space="preserve">
+    <value>(2013)</value>
+  </data>
+  <data name="Sec_Wumi_Name" xml:space="preserve">
+    <value>第三阶段 - “呜咪讲故事”</value>
+  </data>
+  <data name="Sec_Wumi_Para1" xml:space="preserve">
+    <value>“呜咪讲故事”是基于“imady互动卡通”技术基础之上进一步简化产品功能、仅保留核心动捕数据传输和终端渲染的一个过渡性产品，其目标是通过这个版本的产品宣传互动卡通和实时Avatar的概念，从而获取市场关注，并逐步丰富产品的功能，形成可持续发展的产品体系。</value>
+  </data>
+  <data name="Sec_Wumi_Para2" xml:space="preserve">
+    <value>“呜咪讲故事”是最接近于商业化的一个应用产品。但是受限于开发资金等方面的因素，对于产品无法做到持续改进，加上商业化收入模式尚未清晰，美娱决定暂不上线此产品，转而寻求更加完美的产品设计、开发品质和运营模式，</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Yingyu88 - 项目变迁历程</value>
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value>成功与否，不能左右持续改进的脚步和对革新的思索</value>
+  </data>
+  <data name="Sec_Yingyu88_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Yingyu88_Date" xml:space="preserve">
+    <value>(2017)</value>
+  </data>
+  <data name="Sec_Yingyu88_Name" xml:space="preserve">
+    <value>今天 - “英语爸爸”</value>
+  </data>
+  <data name="Sec_Yingyu88_Para1" xml:space="preserve">
+    <value>“英语爸爸”从前几个以技术导向的产品阶段走出来，反思了我们所遗漏和忽视的，却至为重要的因素 - 人文。结合创始人自己在培育孩子方面的经历，我们意识到，先进而优秀的智能产品虽能起到良好的辅助，却并非陪伴孩子的唯一方式。
+技术固然重要，但如果过于追求完美，过度停留在技术研发上，对于产品和业务来说将是一场灾难。</value>
+  </data>
+  <data name="Sec_Yingyu88_Para2" xml:space="preserve">
+    <value>“英语爸爸”在过去的项目基础上全新起航。与以往不同的是，“英语爸爸”并非某种软件或技术，而首先是一种宣扬父母关怀的理念。“英语爸爸”将以理念宣扬和教育服务提供为基础，以逐步发展和完善功能的智能产品为辅助工具，最终实现把学习快乐带回给孩子们的想法。</value>
+  </data>
+</root>

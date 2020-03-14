@@ -1,0 +1,112 @@
+﻿
+<!--
+========================================================
+                        CONTENT
+========================================================
+-->
+<main class="page-content subpage_header">
+    <section>
+        <!--Swiper-->
+        <div data-autoplay="5000" data-slide-effect="fade" data-loop="false" class="swiper-container swiper-slider">
+            <div class="jumbotron text-center">
+                <h1><small>@Resources.Resx_Home_Contact.Sec_Header_PreTitle</small>
+                @Resources.Resx_Home_Contact.Sec_Header_Title</h1>
+                <p class="big">@Resources.Resx_Home_Contact.Sec_Header_Intro</p>
+            </div>
+            <div class="swiper-wrapper">
+                <div data-slide-bg="/images/header3.jpg" class="swiper-slide">
+                    <div class="swiper-slide-caption"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Start section-->
+    <section class="well well-sm">
+        <div class="container">
+            <div class="row flow-offset-1">
+                <!--Start section 反馈 Feedback -->
+                <div class="col-md-8 btn-shadow inset-sm-min img-rounded bg-white">
+                    <h5 class="text-center">@Resources.Resx_Home_Contact.Sec_Feedback_Title</h5>
+                    <form  role="form"  action="mailto:cs@imady.com" onsubmit="return clearMail();" class="row label-insets">
+                        <!--RD Mailform Type-->
+                        <input type="hidden" name="form-type" value="contact">
+                        <!--END RD Mailform Type-->
+                        <div class="form-group col-sm-6">
+                            <label for="exampleInputText1" class="text-uppercase font-secondary form-label">@Resources.Resx_Home_Contact.Sec_Feedback_FirstName</label>
+                            <input type="text" placeholder="@Resources.Resx_Home_Contact.Sec_Feedback_FirstName_Placeholder" id="msgname" name="firstname" data-constraints="NotEmpty LettersOnly" id="exampleInputText1" class="form-control">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="exampleInputText2" class="text-uppercase font-secondary">@Resources.Resx_Home_Contact.Sec_Feedback_LastName</label>
+                            <input type="text" placeholder="@Resources.Resx_Home_Contact.Sec_Feedback_LastName_Placeholder" id="msglastname" name="lastname" data-constraints="NotEmpty LettersOnly" id="exampleInputText2" class="form-control">
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label for="exampleTextarea" class="text-uppercase font-secondary">@Resources.Resx_Home_Contact.Sec_Feedback_Subject</label>
+                            <textarea rows="3" placeholder="@Resources.Resx_Home_Contact.Sec_Feedback_Subject_Placeholder" id="msgsubject" name="subject" data-constraints="NotEmpty" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label for="exampleTextarea" class="text-uppercase font-secondary">@Resources.Resx_Home_Contact.Sec_Feedback_Message</label>
+                            <textarea rows="3" placeholder="@Resources.Resx_Home_Contact.Sec_Feedback_Message_Placeholder" id="msgbody" name="body" data-constraints="NotEmpty" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="exampleInputEmail1" class="text-uppercase font-secondary">@Resources.Resx_Home_Contact.Sec_Feedback_email</label>
+                            <input placeholder="@Resources.Resx_Home_Contact.Sec_Feedback_email_Placeholder" type="text" id="msgemail" name="email" data-constraints="NotEmpty Email" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="submit" id="send" class="btn1 btn-primary btn-xs btn-block round-xl form-el-offset-1">@Resources.Resx_Home_Contact.Sec_Feedback_Button_Send</button>
+                            <div class="mfInfo"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--Start section 联系方式 Contact-->
+                <div class="col-md-4 text-center text-md-left">
+                    <address class="contact-block inset-sm-min-2 img-rounded bg-white btn-shadow">
+                        <dl>
+                            <dt class="h6">@Resources.Resx_Home_Contact.Sec_Contact_address</dt>
+                            <dd>@Resources.Resx_Home_Contact.Sec_Contact_address_content</dd>
+                            <dt class="h6">@Resources.Resx_Home_Contact.Sec_Contact_phone</dt>
+                            <dd><a href="tel:@Resources.Resx_Home_Contact.Sec_Contact_phone_content">@Resources.Resx_Home_Contact.Sec_Contact_phone_content</a></dd>
+                            <dt class="h6">@Resources.Resx_Home_Contact.Sec_Contact_email</dt>
+                            <dd><a href="mailto:@Resources.Resx_Home_Contact.Sec_Contact_email_content">@Resources.Resx_Home_Contact.Sec_Contact_email_content</a></dd>
+                        </dl>
+                        <ul class="list-inline list-inline-3">
+                            <li><a href="#" class="fa-facebook-square"></a></li>
+                            <li><a href="#" class="fa-twitter-square"></a></li>
+                            <li><a href="#" class="fa-google-plus-square"></a></li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+</main>
+
+
+
+@section Scripts{
+<script>
+			$(function() {
+			    //发送邮件
+				$(".btn1").click(sendEmail);
+			});
+
+			function clearMail() {
+			    var t = setTimeout("document.getElementById('msgbody').value = ''; document.getElementById('msgsubject').value = ''", 5000)
+            }
+
+			function sendEmail() {
+			    alert("@Resources.Resx_Home_Contact.Sec_Contact_submitprompt");
+			    var firstname = $("[name='firstname']").val();
+			    var lastname = $("[name='lastname'").val();
+				var email = $("[name='email']").val();
+				var message = $("[name='body']").val();
+				var body = "我的姓名(My Name): " + firstname +"-" + lastname + "\r" +
+					"我的邮箱(My Email): " + email + "\r" +
+					"反馈内容(Feedback Message):" + "\n" + message + "\r\r";
+				document.getElementById("msgbody").value = body;
+
+			}
+</script>
+
+}

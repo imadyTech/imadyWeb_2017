@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value>Imady was inspired by the product concept of "Interactive Performing Platform" and the enthusiasm to the forefront technologies including VR, Motion Recognition, AI Motion Control. This venturing project experienced up and down during 7 years and the result can't be simply concluded as "success" or "failure". Researches and experiments were taken along the journey of developing better products and seeking the right commercialization model. The product design was kept evolving from "interactive performance" to "Interactive cartoon", and now to "Yingyu88" (English Papa), with a synthetic consideration of both our technical strength, upstream technology maturity, devices penetration, market hot topic migration, and so on.</value>
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>Evolution of "Yingyu88" Project</value>
+  </data>
+  <data name="Sec_imadyCartoon_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_imadyCartoon_Date" xml:space="preserve">
+    <value>(2012)</value>
+  </data>
+  <data name="Sec_imadyCartoon_Name" xml:space="preserve">
+    <value>Phase II - “imady Interactive Cartoon”</value>
+  </data>
+  <data name="Sec_imadyCartoon_Para1" xml:space="preserve">
+    <value>"Imady Interactive cartoon" had the technological heritage from "Imady Performing Platform", with reduced technological complexity and re-targeted to the early-education market. The product design conceived a scenario that teachers will be able to send their avatar to far side through motion-capturing technology, so as to control and revive the cartoon characters; and in children's eyes, the cartoons have real life and are able to play with them. All this will happens in the living room big screens where the early education services could be delivered, and achieve the idea of "education with pleasure"!</value>
+  </data>
+  <data name="Sec_imadyCartoon_Para2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_imadyPlatform_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_imadyPlatform_Date" xml:space="preserve">
+    <value>(2011)</value>
+  </data>
+  <data name="Sec_imadyPlatform_Name" xml:space="preserve">
+    <value>Phase I - “imady Online Performance”</value>
+  </data>
+  <data name="Sec_imadyPlatform_Para1" xml:space="preserve">
+    <value>"Imady Interactive Concert 2012" is an implemental instance of "Performing Platform". As a large-scale networking application utilized all research result from "Performing Platform", it involves many complex technologies such as real-time motion capturing, full-body sensing, motion recognition, three-dimensional real-time rendering, data transmission and exchange with large concurrency and high rate data flow, real-time virtual sound synthesis, multi-platform client collaboration and so on.</value>
+  </data>
+  <data name="Sec_imadyPlatform_Para2" xml:space="preserve">
+    <value>The design target of "2012" was to build a publishable app to demonstrate the product concept that a revolutionary interactive form could be delivered through the smart devices (such as Google TV-box), allowing people teleporting themselves into a virtual space for exciting entertainments, and achieving our goal of "every audience is a part of the content".</value>
+  </data>
+  <data name="Sec_Wumi_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Wumi_Date" xml:space="preserve">
+    <value>(2013)</value>
+  </data>
+  <data name="Sec_Wumi_Name" xml:space="preserve">
+    <value>Phase III - “Wumi the Tale Teller”</value>
+  </data>
+  <data name="Sec_Wumi_Para1" xml:space="preserve">
+    <value>"Wumi the tale teller" further simplified the development target base on "Imady Interactive cartoon", with the target audience of early age kids remained unchanged. Functions in this app was reduced, with only cartoon avatar rendering kept. The goal of the version was to promote the concept of interactive cartoon and real-time avatar technology, so as to attract market attention, and gradually adding up functions to form a sustainable product system.</value>
+  </data>
+  <data name="Sec_Wumi_Para2" xml:space="preserve">
+    <value>This was one of the most commercially applied products. But limited by capital funds and joined with other factors, the product was not satisfactory and it ends up with an Android version without going live. Yet, our goal of seeking better product and business model was unchanged.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Yingyu88 - Evolution of Yingyu88 Project</value>
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value>Improvement and change is a life long journey.</value>
+  </data>
+  <data name="Sec_Yingyu88_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Yingyu88_Date" xml:space="preserve">
+    <value>(2017)</value>
+  </data>
+  <data name="Sec_Yingyu88_Name" xml:space="preserve">
+    <value>Today - “Yingyu88”</value>
+  </data>
+  <data name="Sec_Yingyu88_Para1" xml:space="preserve">
+    <value>"Yingyu88" rethought based on the experience from the previous stages which were technology-orientated, and found the most important factor we have missed and ignored in the past - the humanities. Combined with the founder's own experience in cultivating children, we realize that advanced and excellent intelligent products are not the only tool for children caring, although it can be a good helper. Meanwhile, excessive focus on research and development could be a disaster to the business, despite the importance of technology in the internet orientated era.</value>
+  </data>
+  <data name="Sec_Yingyu88_Para2" xml:space="preserve">
+    <value>"Yingyu88" has re-embarked onto a journey on the basis of past projects. What different is, "Yingyu88" is not a software or technology, but a spirit of appealing and promoting parental care. "Yingyu88" will stand on the basis of advocating our philosophy and providing corresponding services, and gradually adding up intelligent products as powerful auxiliary tools, eventually achieving our goal of bringing learning pleasure back to children.</value>
+  </data>
+</root>

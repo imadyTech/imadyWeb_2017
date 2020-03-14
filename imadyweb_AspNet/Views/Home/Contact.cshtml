@@ -1,0 +1,90 @@
+﻿
+<!--
+========================================================
+                        CONTENT
+========================================================
+-->
+<main class="page-content subpage_header">
+    <section>
+        <!--Swiper-->
+        <div data-autoplay="5000" data-slide-effect="fade" data-loop="false" class="swiper-container swiper-slider">
+            <div class="jumbotron text-center">
+                <h1><small>Blog</small>Our Latest News</h1>
+                <p class="big"></p>
+            </div>
+            <div class="swiper-wrapper">
+                <div data-slide-bg="/images/header-1.jpg" class="swiper-slide">
+                    <div class="swiper-slide-caption"></div>
+                </div>
+                <div data-slide-bg="/images/header-3.jpg" class="swiper-slide">
+                    <div class="swiper-slide-caption"></div>
+                </div>
+                <div data-slide-bg="/images/header-4.jpg" class="swiper-slide">
+                    <div class="swiper-slide-caption"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Start section-->
+    <section class="well well-sm">
+        <div class="container">
+            <div class="row flow-offset-1">
+                <div class="col-md-8 btn-shadow inset-sm-min img-rounded bg-white">
+                    <h5 class="text-center">GET IN TOUCH</h5>
+                    <form method="post" action="bat/rd-mailform.php" class="row label-insets rd-mailform">
+                        <!--RD Mailform Type-->
+                        <input type="hidden" name="form-type" value="contact">
+                        <!--END RD Mailform Type-->
+                        <div class="form-group col-sm-6">
+                            <label for="exampleInputText1" class="text-uppercase font-secondary form-label">First Name</label>
+                            <input type="text" placeholder="Your First Name" name="name" data-constraints="NotEmpty LettersOnly" id="exampleInputText1" class="form-control">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="exampleInputText2" class="text-uppercase font-secondary">Last Name</label>
+                            <input type="text" placeholder="Your Last Name" name="name2" data-constraints="NotEmpty LettersOnly" id="exampleInputText2" class="form-control">
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label for="exampleTextarea" class="text-uppercase font-secondary">your message</label>
+                            <textarea id="exampleTextarea" rows="3" placeholder="Write your message here" name="message" data-constraints="NotEmpty" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="exampleInputEmail1" class="text-uppercase font-secondary">E-mail</label>
+                            <input placeholder="E-mail" type="text" name="email" data-constraints="NotEmpty Email" id="exampleInputEmail1" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="submit" class="btn btn-primary btn-xs round-xl btn-block form-el-offset-1">Send message</button>
+                            <div class="mfInfo"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 text-center text-md-left">
+                    <address class="contact-block inset-sm-min-2 img-rounded bg-white btn-shadow">
+                        <dl>
+                            <dt class="h6">ADDRESS</dt>
+                            <dd>123, New Lenox, Chicago, IL 60606</dd>
+                            <dt class="h6">WE ARE OPEN</dt>
+                            <dd>Open hours: 8.00-18.00 Mon-Sat</dd>
+                            <dt class="h6">PHONE</dt>
+                            <dd><a href="callto:#">123-456-7890, &nbsp;</a><a href="callto:#">098-765-4321</a></dd>
+                            <dt class="h6">E-MAIL</dt>
+                            <dd><a href="mailto:#">info@example.com</a></dd>
+                        </dl>
+                        <ul class="list-inline list-inline-3">
+                            <li><a href="#" class="fa-facebook-square"></a></li>
+                            <li><a href="#" class="fa-twitter-square"></a></li>
+                            <li><a href="#" class="fa-google-plus-square"></a></li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+</main>
+
+
+
+@section Scripts{
+
+}

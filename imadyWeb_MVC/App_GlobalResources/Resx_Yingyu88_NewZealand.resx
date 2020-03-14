@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value>2020年4月12日～4月17日</value>
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value>纯净新西兰</value>
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>新西兰游学 之 2020春季团</value>
+  </data>
+  <data name="Sec_Intro_01_Content" xml:space="preserve">
+    <value>美娱力求将各种类型的智能技术应用于互动教育、互动娱乐等领域，提升用户体验和改善学习效果。经历多次变迁，我们核心项目已从“互动演艺平台”、“互动卡通”项目，演变为当前的“英语爸爸”整合互动教育项目。</value>
+  </data>
+  <data name="Sec_Intro_01_Name" xml:space="preserve">
+    <value>1. 自主品牌项目</value>
+  </data>
+  <data name="Sec_Intro_02_Content" xml:space="preserve">
+    <value>我们提供软件产品从创意到实现的全生命周期咨询和服务，协助客户将伟大创意一步步带入现实世界。</value>
+  </data>
+  <data name="Sec_Intro_02_Name" xml:space="preserve">
+    <value>2. 软件技术服务</value>
+  </data>
+  <data name="Sec_Intro_03_Content" xml:space="preserve">
+    <value>面向未来，我们的研究涵盖电子商务、人工智能、人体感知、空间感知、虚拟互动等领域，并积极寻找各类技术方案的落地可行性。</value>
+  </data>
+  <data name="Sec_Intro_03_Name" xml:space="preserve">
+    <value>3. 技术研究</value>
+  </data>
+  <data name="Sec_Intro_SubTitle" xml:space="preserve">
+    <value>6天5晚
+专为有孩子的春假家庭设计的，充分考虑亲子需求、南半球秋日体验。</value>
+  </data>
+  <data name="Sec_Intro_SubTitle1" xml:space="preserve">
+    <value>由国际知名球场设计师小罗伯特·琼斯主持设计高尔夫球场，世界冠军高宝璟的主场俱乐部，贵族的私人岛屿骑行等待你孩子的到来。孩子将在这里参加为期3天的全外教高尔夫入门课程，开启她未来的高尔夫世界。</value>
+  </data>
+  <data name="Sec_Intro_Title" xml:space="preserve">
+    <value>行程简介</value>
+  </data>
+  <data name="Sec_Yingyu88_SubTitle" xml:space="preserve">
+    <value>一个让孩子们快乐学习英语的整合式平台</value>
+  </data>
+  <data name="Sec_Yingyu88_Title" xml:space="preserve">
+    <value>“英语爸爸”项目</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>imady - 苏州美娱</value>
+  </data>
+</root>

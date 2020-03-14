@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sec_Brand_AboutBrand_Content" xml:space="preserve">
+    <value>"imady" is the homonym and abbreviation  of well-known idiom "I made it !", represents the spirit of challenge taking, aspiration to create, and the value of self-affirmation, in the era of fast changing. The "imady" text and image has been approved by the Trademark Office of State Administration for Industry and Commerce as registered trademark own by Suzhou imady Technologies Co., Ltd.</value>
+  </data>
+  <data name="Sec_Brand_AboutBrand_Name" xml:space="preserve">
+    <value>About the "imady" brand</value>
+  </data>
+  <data name="Sec_Brand_Connotation_Content" xml:space="preserve">
+    <value>The logo was designed to comprise with shape of "I" and "!", which interact and organized tightly, implicate "the achievement of self-expression" and "the joy of success", represent by color scheme of green and red.
+In an era of prevailing social network and virtual world base on internet, "imady" is an embrace to freedom of delivering the voice and idea without boundary.</value>
+  </data>
+  <data name="Sec_Brand_Connotation_Name" xml:space="preserve">
+    <value>Connotation of "imady"</value>
+  </data>
+  <data name="Sec_Brand_Mission_Content" xml:space="preserve">
+    <value>We are dedicated on creating innovative and high quality applications for our customers and users, based on multi platforms including PC, mobile, embedded systems, and game consoles.
+
+Our prospect of technologies development in future 10 years leads us toward a direction of building Virtual Reality base on Next-Generation-Network, equipped with most advanced AI (Artificial Intelligence) technologies such as motion detection, recognition, and exchanging.
+Our vision is, as most of people expected, the world described in those sci-fi movies like "Matrix" and "Avatar", will come to us soon!</value>
+  </data>
+  <data name="Sec_Brand_Mission_Name" xml:space="preserve">
+    <value>Mission and vision</value>
+  </data>
+  <data name="Sec_Coffee_01" xml:space="preserve">
+    <value>cups of coffee</value>
+  </data>
+  <data name="Sec_Coffee_02" xml:space="preserve">
+    <value>ideas</value>
+  </data>
+  <data name="Sec_Coffee_03" xml:space="preserve">
+    <value>years of study &amp; research</value>
+  </data>
+  <data name="Sec_Coffee_04" xml:space="preserve">
+    <value>lines of code</value>
+  </data>
+  <data name="Sec_Header_Intro" xml:space="preserve">
+    <value>How can we see which way to go, if you did not twinkle so?</value>
+  </data>
+  <data name="Sec_Header_PreTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Header_Title" xml:space="preserve">
+    <value>Something about dreaming and idealism...</value>
+  </data>
+  <data name="Sec_Team_Intro" xml:space="preserve">
+    <value>There are always some unstable people and they seek things better...</value>
+  </data>
+  <data name="Sec_Team_Member01_Intro" xml:space="preserve">
+    <value>Frank is an enthusiastic programmer of C#/.NET/Unity3d, switched from his earlier marketing role over 10 years. As the founder of imady, he is devoting to the technical concept of "Object Stream" and the application of the technologies.</value>
+  </data>
+  <data name="Sec_Team_Member01_LinkedIn" xml:space="preserve">
+    <value>https://www.linkedin.com/in/frank-shen-a527445/</value>
+  </data>
+  <data name="Sec_Team_Member01_Name" xml:space="preserve">
+    <value>Frank Shen</value>
+  </data>
+  <data name="Sec_Team_Member01_Title" xml:space="preserve">
+    <value>Founder</value>
+  </data>
+  <data name="Sec_Team_Member02_Intro" xml:space="preserve">
+    <value>An overseas returnee mum of two kids with Master degree; Her recent focus is on techniques of childhood education, while enjoying the time spend with the kids to travel around. </value>
+  </data>
+  <data name="Sec_Team_Member02_LinkedIn" xml:space="preserve">
+    <value>https://www.linkedin.com/in/%E8%89%B3-%E6%B2%88-45559bb5/</value>
+  </data>
+  <data name="Sec_Team_Member02_Name" xml:space="preserve">
+    <value>Lisa Shen</value>
+  </data>
+  <data name="Sec_Team_Member02_Title" xml:space="preserve">
+    <value>Co-Founder</value>
+  </data>
+  <data name="Sec_Team_Title" xml:space="preserve">
+    <value>Team Members</value>
+  </data>
+  <data name="Sec_Timeline_2010A_Date" xml:space="preserve">
+    <value>Dec, 2010</value>
+  </data>
+  <data name="Sec_Timeline_2010A_Title" xml:space="preserve">
+    <value>First motion capturing lab in Wujiang;</value>
+  </data>
+  <data name="Sec_Timeline_2010B_Date" xml:space="preserve">
+    <value>May, 2010</value>
+  </data>
+  <data name="Sec_Timeline_2010B_Title" xml:space="preserve">
+    <value>Start-up in Canglang District, Suzhou;</value>
+  </data>
+  <data name="Sec_Timeline_2010C_Date" xml:space="preserve">
+    <value>Oct, 2010</value>
+  </data>
+  <data name="Sec_Timeline_2010C_Title" xml:space="preserve">
+    <value>Frank was nominated “Scientific Leader of Starting-up &amp; Innovation” in Wujiang;</value>
+  </data>
+  <data name="Sec_Timeline_2011A_Date" xml:space="preserve">
+    <value>Dec, 2011</value>
+  </data>
+  <data name="Sec_Timeline_2011A_Title" xml:space="preserve">
+    <value>prototype of “imady Online Performance” succeed in-lab preliminary test;</value>
+  </data>
+  <data name="Sec_Timeline_2011B_Date" xml:space="preserve">
+    <value>Oct, 2011</value>
+  </data>
+  <data name="Sec_Timeline_2011B_Title" xml:space="preserve">
+    <value>Frank was nominated as one of "Key Personnel of Cultural Industry";</value>
+  </data>
+  <data name="Sec_Timeline_2011C_Date" xml:space="preserve">
+    <value>Nov, 2011</value>
+  </data>
+  <data name="Sec_Timeline_2011C_Title" xml:space="preserve">
+    <value>Ding Zhen (former R&amp;D Director of the9.com) joined as CTO;</value>
+  </data>
+  <data name="Sec_Timeline_2012A_Date" xml:space="preserve">
+    <value>Jun, 2012</value>
+  </data>
+  <data name="Sec_Timeline_2012A_Title" xml:space="preserve">
+    <value>prototype of “imady Cartoon” succeed in in-lab test on Android;</value>
+  </data>
+  <data name="Sec_Timeline_2012B_Date" xml:space="preserve">
+    <value>Jun, 2012</value>
+  </data>
+  <data name="Sec_Timeline_2012B_Title" xml:space="preserve">
+    <value>Mobile game “Town of Heavy Eaters” onboarded to Apple App-Store;</value>
+  </data>
+  <data name="Sec_Timeline_2013A_Date" xml:space="preserve">
+    <value>Sept, 2013</value>
+  </data>
+  <data name="Sec_Timeline_2013A_Title" xml:space="preserve">
+    <value>“Virtual Training System for High-Voltage Electricity Equipment” delivered to the Southern Power Grid;</value>
+  </data>
+  <data name="Sec_Timeline_2014A_Date" xml:space="preserve">
+    <value>Jan, 2014</value>
+  </data>
+  <data name="Sec_Timeline_2014A_Title" xml:space="preserve">
+    <value>“Ancient Town of Zhenze” delivered on Web, Android and iOS;</value>
+  </data>
+  <data name="Sec_Timeline_2014B_Date" xml:space="preserve">
+    <value>Oct, 2014</value>
+  </data>
+  <data name="Sec_Timeline_2014B_Title" xml:space="preserve">
+    <value>Partnered with Intel Software Department as a RealSense early developer;</value>
+  </data>
+  <data name="Sec_Timeline_2015A_Date" xml:space="preserve">
+    <value>Aug, 2015</value>
+  </data>
+  <data name="Sec_Timeline_2015A_Title" xml:space="preserve">
+    <value>“Tianrui Brokers” accumulatively matched business over RMB600 million;</value>
+  </data>
+  <data name="Sec_Timeline_2015B_Date" xml:space="preserve">
+    <value>Oct, 2015</value>
+  </data>
+  <data name="Sec_Timeline_2015B_Title" xml:space="preserve">
+    <value>“imady Interactive Cartoon” was sponsored by Microsoft BizSpark program;</value>
+  </data>
+  <data name="Sec_Timeline_2017A_Date" xml:space="preserve">
+    <value>Jun, 2017</value>
+  </data>
+  <data name="Sec_Timeline_2017A_Title" xml:space="preserve">
+    <value>“imady Interactive Cartoon” renamed to “Yingyu88” (English Papa) project, an integrated English tutoring service.</value>
+  </data>
+  <data name="Sec_Timeline_Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Sec_Timeline_Intro" xml:space="preserve">
+    <value>Innovation never stops; Failures or successes are both footstones of tomorrow.</value>
+  </data>
+  <data name="Sec_Timeline_LoadMore" xml:space="preserve">
+    <value>Load More</value>
+  </data>
+  <data name="Sec_Timeline_Title" xml:space="preserve">
+    <value>Chronicles</value>
+  </data>
+  <data name="Sec_Todo_01_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Todo_01_Name" xml:space="preserve">
+    <value>We'll make it!</value>
+  </data>
+  <data name="Sec_Todo_02_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Todo_02_Name" xml:space="preserve">
+    <value>Change the world</value>
+  </data>
+  <data name="Sec_Todo_03_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sec_Todo_03_Name" xml:space="preserve">
+    <value>Perpetuation of Humanity</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>imady - About Suzhou imady Technologies Co., Ltd.</value>
+  </data>
+</root>
